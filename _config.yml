@@ -5,11 +5,11 @@
 # Site
 title: Suiyi's Note
 subtitle:
-description:
+description: A lazy bloger.
 keywords:
-author: Suiyi Fu
-language:
-timezone:
+author: Suiyi Fu 付随意
+language: en
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
