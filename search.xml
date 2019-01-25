@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Expected Cost of Linear Probing]]></title>
+    <url>%2F2019%2F01%2F24%2Flinear-probing-bound%2F</url>
+    <content type="text"><![CDATA[Danni is taking Comp580 at Rice. She is learning to analyze the expected cost of linear probing which is used to handle the collision in hashing. I want to share some interesting results without diving into details.Therom: With 3-independent hashing we can prove an O(logn) expected costs of look up.Therom: With 5-independent hashing we can prove an O(1) expected costs of look up.The proof are basically propability and statistics, it needs to use Chebyshev’s Inequalities, 4th moment bound and the variable independence derived from the 3/5-indenpendent hashing. If interested, this stanford lecture note is very useful.]]></content>
+      <categories>
+        <category>mathematics</category>
+      </categories>
+      <tags>
+        <tag>probabilistic algorithms</tag>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[My First Post]]></title>
     <url>%2F2019%2F01%2F23%2Ffirst-post%2F</url>
     <content type="text"><![CDATA[This is my first personal webiste. Danni helped me a lot in building the enviroment!The blog would track my daily study and thoughts. Hopefully, I can update it continuously…Useful links to build your hexo website:https://hexo.io/docs/setuphttps://www.jianshu.com/p/5fc4672b7d2e]]></content>

@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="probabilistic algorithms,statistics,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="This is my first personal webiste. Danni helped me a lot in building the enviroment!The blog would track my daily study and thoughts. Hopefully, I can update it continuously…Useful links to build your">
+<meta name="description" content="Danni is taking Comp580 at Rice. She is learning to analyze the expected cost of linear probing which is used to handle the collision in hashing. I want to share some interesting results without divin">
+<meta name="keywords" content="probabilistic algorithms,statistics">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My First Post">
-<meta property="og:url" content="https://fusuiyi123.github.io/2019/01/23/first-post/index.html">
+<meta property="og:title" content="Expected Cost of Linear Probing">
+<meta property="og:url" content="https://fusuiyi123.github.io/2019/01/24/linear-probing-bound/index.html">
 <meta property="og:site_name" content="Suiyi&#39;s Note">
-<meta property="og:description" content="This is my first personal webiste. Danni helped me a lot in building the enviroment!The blog would track my daily study and thoughts. Hopefully, I can update it continuously…Useful links to build your">
+<meta property="og:description" content="Danni is taking Comp580 at Rice. She is learning to analyze the expected cost of linear probing which is used to handle the collision in hashing. I want to share some interesting results without divin">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-24T05:05:34.732Z">
+<meta property="og:updated_time" content="2019-01-25T03:30:32.079Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My First Post">
-<meta name="twitter:description" content="This is my first personal webiste. Danni helped me a lot in building the enviroment!The blog would track my daily study and thoughts. Hopefully, I can update it continuously…Useful links to build your">
+<meta name="twitter:title" content="Expected Cost of Linear Probing">
+<meta name="twitter:description" content="Danni is taking Comp580 at Rice. She is learning to analyze the expected cost of linear probing which is used to handle the collision in hashing. I want to share some interesting results without divin">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://fusuiyi123.github.io/2019/01/23/first-post/">
+  <link rel="canonical" href="https://fusuiyi123.github.io/2019/01/24/linear-probing-bound/">
 
 
 
 
 
-  <title>My First Post | Suiyi's Note</title>
+  <title>Expected Cost of Linear Probing | Suiyi's Note</title>
   
 
 
@@ -284,7 +285,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fusuiyi123.github.io/2019/01/23/first-post/">
+    <link itemprop="mainEntityOfPage" href="https://fusuiyi123.github.io/2019/01/24/linear-probing-bound/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Suiyi Fu">
@@ -301,7 +302,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">My First Post</h1>
+          <h1 class="post-title" itemprop="name headline">Expected Cost of Linear Probing</h1>
         
 
         <div class="post-meta">
@@ -313,8 +314,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-23T21:11:51-06:00">
-                2019-01-23
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-24T20:50:21-06:00">
+                2019-01-24
               </time>
             
 
@@ -336,8 +337,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/miscellaneous/" itemprop="url" rel="index">
-                    <span itemprop="name">miscellaneous</span>
+                  <a href="/categories/mathematics/" itemprop="url" rel="index">
+                    <span itemprop="name">mathematics</span>
                   </a>
                 </span>
 
@@ -373,7 +374,7 @@
       
 
       
-        <p>This is my first personal webiste. Danni helped me a lot in building the enviroment!<br>The blog would track my daily study and thoughts. Hopefully, I can update it continuously…<br>Useful links to build your hexo website:<br><a href="https://hexo.io/docs/setup" target="_blank" rel="noopener">https://hexo.io/docs/setup</a><br><a href="https://www.jianshu.com/p/5fc4672b7d2e" target="_blank" rel="noopener">https://www.jianshu.com/p/5fc4672b7d2e</a>  </p>
+        <p>Danni is taking <a href="https://www.cs.rice.edu/~as143/COMP480_580_Spring19/index.html" target="_blank" rel="noopener">Comp580</a> at Rice. She is learning to analyze the expected cost of linear probing which is used to handle the collision in hashing. I want to share some interesting results without diving into details.<br><strong>Therom:</strong> With 3-independent hashing we can prove an O(logn) expected costs of look up.<br><strong>Therom:</strong> With 5-independent hashing we can prove an O(1) expected costs of look up.<br>The proof are basically propability and statistics, it needs to use Chebyshev’s Inequalities, 4th moment bound and the variable independence derived from the 3/5-indenpendent hashing. If interested, this <a href="http://web.stanford.edu/class/archive/cs/cs166/cs166.1166/lectures/12/Small12.pdf" target="_blank" rel="noopener">stanford lecture note</a> is very useful.</p>
 
       
     </div>
@@ -389,6 +390,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/probabilistic-algorithms/" rel="tag"># probabilistic algorithms</a>
+          
+            <a href="/tags/statistics/" rel="tag"># statistics</a>
+          
+        </div>
+      
 
       
       
@@ -398,15 +407,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/01/23/first-post/" rel="next" title="My First Post">
+                <i class="fa fa-chevron-left"></i> My First Post
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/24/linear-probing-bound/" rel="prev" title="Expected Cost of Linear Probing">
-                Expected Cost of Linear Probing <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
